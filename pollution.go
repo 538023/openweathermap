@@ -42,7 +42,7 @@ type PollutionData struct {
 	// List  []struct {
 	Dt   int `json:"dt"`
 	Main struct {
-		Aqi float64 `json:"aqi"`
+		Aqi int `json:"aqi"`
 	} `json:"main"`
 	Components struct {
 		Co   float64 `json:"co"`
